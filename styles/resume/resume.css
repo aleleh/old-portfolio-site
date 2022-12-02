@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&display=swap');
+
+
+
+
+.section--page{
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.section--edutech{
+    display: flex;
+    align-items: center;
+    gap: 9em;
+}
+
+#wrapper--hero{
+    display: flex;
+    align-items: center;
+    gap: 4em;
+    padding-top: 4em;
+}
+
+#bio, a{
+    font-weight: 300;
+}
+
+
+#edh2{
+    color: var(--mainColor);
+}
+
+#education {
+	margin: 2px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border:2px solid var(--mainColor);
+}
+
+#techstack {
+    margin: 2px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.card-work-history{
+    border-left: 1px solid var(--mainColor);
+    margin-top: 3em;
+    margin-bottom: 3em;
+    padding-left: 2em;
+}
+
+.line-break{
+    background-color: var(--mainColor);
+    height: 1px;
+}
+
+#downloadresume{
+    float: right;
+    color: var(--s);
+    padding-left: 3px;
+    padding-top: 3px;
+}
+
+#downloadresume:hover{
+    color: var(--hoverColor);
+}
