@@ -17,16 +17,18 @@ body{
 	line-height: 1.4;
 
 	--mainColor:white;
-	--secondColor:#001825;
+	--secondColor:black;
 	--thirdColor:#00ff91;
 	--testColor:red;
 	--hoverColor: #00ff91;
 	--opac-mainColor: rgb(255, 255, 255, 0.9);
 	--transparent: rgb(0, 0, 0, 0);
+
+	--secondColor1:#001825;
 }
 
 body.dark{
-	--mainColor:#001825;
+	--mainColor:black;
 	--secondColor:white;
 	--testColor:yellow;
 	--opac-mainColor: rgb(0, 24, 37, 0.9);
