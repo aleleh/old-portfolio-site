@@ -50,11 +50,13 @@ h2, h3, h4, h5, h6, strong{
 	color: var(--secondColor);
 	font-family: 'Poppins', sans-serif;
 	font-weight: 500;
+	padding: 4px;
 }
 
 p, li, span, label, input, textarea{
 	color: var(--secondColor);
 	font-family: 'Poppins', sans-serif;
+	padding: 4px;
 }
 
 a{
@@ -88,7 +90,6 @@ h6 { font-size: 16px;}
 
 .s3{
 	background-color: var(--mainColor);
-	border-bottom:1px solid var(--secondColor);
 	overflow:auto;
 	color:var(--secondColor);
 	padding: 10px;
@@ -104,6 +105,7 @@ h6 { font-size: 16px;}
     color: var(--secondColor);
     top: 0;
     right: 0;
+	font-size: 2em;
 }
 
 #downloadresume:hover{
@@ -154,7 +156,7 @@ h6 { font-size: 16px;}
 	transition: 0.2s;
 }
 
-#h1-mobile{
+.h1-mobile{
 	color: var(--secondColor);
 	font-family: 'Poppins', sans-serif;
 	font-weight: 100;
@@ -284,6 +286,12 @@ h6 { font-size: 16px;}
 	padding-bottom: 14px;
 	padding-right: 14px;
 	border: 2px solid var(--secondColor);
+	margin: 15px;
+
+	-webkit-box-shadow: -2px 7px 21px -9px var(--secondColor);
+	-moz-box-shadow: -2px 7px 21px -9px var(--secondColor);
+	box-shadow: -2px 7px 21px -9px var(--secondColor);
+
 }
 
 .ulist{
@@ -322,9 +330,9 @@ h6 { font-size: 16px;}
 
 .post{
 	border:1px solid var(--secondColor);
-	-webkit-box-shadow: -2px 7px 21px -9px rgba(0,0,0,0.75);
-	-moz-box-shadow: -2px 7px 21px -9px rgba(0,0,0,0.75);
-	box-shadow: -2px 7px 21px -9px rgba(0,0,0,0.75);
+	-webkit-box-shadow: -2px 7px 21px -9px var(--secondColor);;
+	-moz-box-shadow: -2px 7px 21px -9px var(--secondColor);
+	box-shadow: -2px 7px 21px -9px var(--secondColor);
 }
 
 .thumbnail{
@@ -573,6 +581,7 @@ input[type="checkbox"]:checked{
   
   #about-header{
 	text-align: center;
+	padding: 30px;
   }
 
   .menu-wrap .menu > div > div {
@@ -629,24 +638,12 @@ input[type="checkbox"]:checked{
 
 }
 
-@media screen and (max-width: 900px){
-	div.navi {
-		display: none;
-	  }
-
-	.left-column {
-		display: none;
-	}
-
-	
-}
-
-@media screen and (min-width: 900px){
-.menu-wrap{
+@media screen and (min-width: 820px){
+	.menu-wrap{
 	display: none;
 }
 
-#h1-mobile{
+.h1-mobile{
 	display: none;
 }
 
@@ -712,7 +709,6 @@ input[type="checkbox"]:checked{
 		padding-right: 14px;
 		text-align: center;
 	}
-
 
 	#mode{
 	position: absolute;
