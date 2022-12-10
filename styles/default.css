@@ -63,6 +63,8 @@ a{
 	text-decoration: none;
 	color: var(--secondaryColor);
 	font-family: 'Poppins', sans-serif;
+	padding: 4px;
+
 }
 
 h1 { font-size: 70px;}
@@ -345,7 +347,6 @@ h6 { font-size: 16px;}
 .post-preview{
 	background-color:var(--mainColor);
 	padding:15px;
-
 }
 
 .post-preview a:hover {
