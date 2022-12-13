@@ -335,6 +335,12 @@ h6 { font-size: 16px;}
 	-webkit-box-shadow: -2px 7px 21px -9px var(--secondColor);;
 	-moz-box-shadow: -2px 7px 21px -9px var(--secondColor);
 	box-shadow: -2px 7px 21px -9px var(--secondColor);
+	transition: transform .2s;
+}
+
+.post:hover{
+	transform: scale(1.25);
+	transition-delay: 0.2s;
 }
 
 .thumbnail{
